@@ -56,7 +56,7 @@ public class PerishableItem {
     private String id;
     private String name;
     private double price;
-    private String expiration;
+    private String expiration;   // additional field
 
     public String getId() {return id;}
     public void setId(String id) {this.id = id;}
@@ -64,8 +64,8 @@ public class PerishableItem {
     public void setName(String name) {this.name = name;}
     public double getPrice() {return price;}
     public void setPrice(double price) {this.price = price;}
-    public String getExpiration() {return expiration;}
-    public void setExpiration(String expiration) {this.expiration = expiration;}
+    public String getExpiration() {return expiration;}    // additional method
+    public void setExpiration(String expiration) {this.expiration = expiration;}   //additional method
 }
 ```
 
